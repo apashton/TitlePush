@@ -5,9 +5,14 @@ ten tiers from the top, and push your club, and its ground, all the way to the t
 
 **Play: https://apashton.github.io/TitlePush/**
 
-This repository is the public home of the playtest: the website (`index.html`) and the game itself
-(`play.html`, one self-contained file that runs offline and saves in your browser). The game's source is
-developed separately; each playtest build is published here.
+**What's new:** [version history](https://apashton.github.io/TitlePush/versions.html) (also
+[`CHANGELOG.md`](CHANGELOG.md) and [`changelog.json`](changelog.json)). Each playtest is tagged, and
+newer ones have a [release](https://github.com/apashton/TitlePush/releases) with the game attached.
+
+This repository is the public home of the playtest: the website (`index.html`), the game itself
+(`play.html`, one self-contained file that runs offline and saves in your browser), and its version
+history (`versions.html`). The game's source is developed separately; each playtest build is published
+here.
 
 ## Feedback
 
