@@ -2,6 +2,17 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.4: Matchday sound and cloud saves
+
+_19 Nov 2026, 11:09 pm UK · build b4da6ff_
+
+- Matchday sound. The crowd murmurs, rises as the ball nears the box, roars at a goal and groans at a miss; you hear the ball, the net, the post and the referee’s whistle, and the rain when it’s raining. It’s all made by the game itself. Turn it off with the Sound switch by the match controls.
+- The training on the title screen and the hub joins the session part-way through, at a different drill each time, so it isn’t always the warm-up laps.
+- Cloud saves. Sign in with an email and password, or with Google, under Club → Save, and your career goes online: an autosave at the end of each week, and three slots of your own.
+- Carry on in another browser. Sign in on the title screen and load your career from the cloud.
+- The cloud never overwrites something you haven’t seen. If your cloud autosave came from another device, or is a different career, the game asks before replacing it.
+- The game still saves on your device, signed in or not, and plays offline.
+
 ## v0.6.3: Expected points, graded grounds and What’s New
 
 _19 Nov 2026, 10:11 pm UK · build 146e1c9_
