@@ -2,6 +2,14 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.5: Shouts without stopping the match
+
+_19 Nov 2026, 11:52 pm UK · build 169a156_
+
+- Touchline shouts no longer stop the match. At 60′ and 75′ the shout pops up over the pitch while play goes on, and the clock slows down while it’s open so you have time to choose.
+- A shout takes effect from the end of the five minutes being played. Press nothing and the team carries on as it is.
+- Fixed: the match showed “Full time” at 60′ and 75′.
+
 ## v0.6.4: Matchday sound and cloud saves
 
 _19 Nov 2026, 11:09 pm UK · build b4da6ff_

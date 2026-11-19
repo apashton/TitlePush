@@ -1,12 +1,25 @@
 {
   "name": "Title Push",
-  "current": "v0.6.4",
+  "current": "v0.6.5",
   "build": {
-    "version": "v0.6.4",
-    "sha": "b4da6ff",
-    "date": "2026-11-19 23:09"
+    "version": "v0.6.5",
+    "sha": "169a156",
+    "date": "2026-11-19 23:52"
   },
   "entries": [
+    {
+      "version": "v0.6.5",
+      "title": "Shouts without stopping the match",
+      "date": "2026-11-19",
+      "time": "23:52",
+      "sha": "169a156",
+      "kind": "playtest",
+      "bullets": [
+        "Touchline shouts no longer stop the match. At 60′ and 75′ the shout pops up over the pitch while play goes on, and the clock slows down while it’s open so you have time to choose.",
+        "A shout takes effect from the end of the five minutes being played. Press nothing and the team carries on as it is.",
+        "Fixed: the match showed “Full time” at 60′ and 75′."
+      ]
+    },
     {
       "version": "v0.6.4",
       "title": "Matchday sound and cloud saves",
