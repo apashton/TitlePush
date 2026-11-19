@@ -1,0 +1,116 @@
+{
+  "name": "Title Push",
+  "current": "v0.6.3",
+  "build": {
+    "version": "v0.6.3",
+    "sha": "146e1c9",
+    "date": "2026-11-19 22:11"
+  },
+  "entries": [
+    {
+      "version": "v0.6.3",
+      "title": "Expected points, graded grounds and What’s New",
+      "date": "2026-11-19",
+      "time": "22:11",
+      "sha": "146e1c9",
+      "kind": "playtest",
+      "bullets": [
+        "Expected points in the season review. Every match now keeps its expected goals, and the review says how many points your chances were worth against the points you got.",
+        "Other clubs’ grounds are graded by the same rules as yours. A club that hasn’t built what the tier above needs can’t go up, and the League table says what its ground is missing.",
+        "What’s New. This panel opens once after each new playtest, with the version history underneath. Open it again from the title screen or the footer.",
+        "The title screen and the footer show which playtest version you’re playing, and when it was built."
+      ]
+    },
+    {
+      "version": "v0.6.2",
+      "title": "League trends",
+      "date": "2026-11-19",
+      "time": "19:14",
+      "sha": "ba9ac3f",
+      "kind": "playtest",
+      "bullets": [
+        "League trends on the Tactics screen. A new card shows which styles and formations the league is playing this season, with the top three of each and how often each one is used.",
+        "A headline when one style dominates. When one style is in at least 30% of game plans, you’ll see something like “High Press is everywhere this season”. Otherwise it says “No style dominates”.",
+        "How to beat the trend. The card names what counters the most common style and formation, for example “Counter or Long Ball beat High Press”.",
+        "No trend early in the season. It waits until about two rounds have been played before calling one.",
+        "Results are unchanged. The card only shows information, so no results or match numbers changed."
+      ]
+    },
+    {
+      "version": "v0.6.1",
+      "title": "The formation cycle",
+      "date": "2026-11-19",
+      "time": "18:14",
+      "sha": "47a28dd",
+      "kind": "playtest",
+      "bullets": [
+        "Formation rock-paper-scissors cycle: wide forwards beat midfield 4/5, midfield 4/5 beats back 3/5, and back 3/5 beats wide forwards.",
+        "The Tactics screen, opponent habits, the match report’s “Next time” tip, and half-time notes explain the cycle."
+      ]
+    },
+    {
+      "version": "v0.6.0",
+      "title": "The first public playtest",
+      "date": "2026-11-19",
+      "time": "16:58",
+      "sha": "715cd03",
+      "kind": "playtest",
+      "bullets": [
+        "The game is called Title Push.",
+        "A match report at full time: what went right, what went wrong, how lucky the finishing was, and a “Next time” tip.",
+        "Opponent habits on the Tactics screen: what this week’s opponent usually plays, how to counter it, and how your shape lines up against theirs.",
+        "Half-time choices: take the coach’s advice, stick with your own plan, or set orders for each kind of score and let the coach call it.",
+        "Touchline shouts at 60 and 75 minutes, to push for a goal or shut the game down.",
+        "A plan-book editor, and a line saying which plan this week’s match will use.",
+        "Away grounds drawn to the size of the home club’s ground.",
+        "Club → Save → “Export playtest timings” records how long you spent on each screen, to send with your feedback."
+      ]
+    },
+    {
+      "version": "v0.5.0",
+      "title": "Matchday crowds and the season wrap",
+      "date": "2026-11-19",
+      "from": "2026-11-18",
+      "sha": null,
+      "kind": "history",
+      "bullets": [
+        "Fans walk to their place on matchday: queue, mood, crowding and sales overlays on the ground, and a replay of the day.",
+        "Catering prices and staffing, and matchday programmes.",
+        "Split a stand into sections, or join two stands into one.",
+        "Tips for your first season.",
+        "A season review, with your best signing, and the story of twenty seasons with an all-time XI.",
+        "Weather and floodlights in the match, corner stands, and the same colours for stands in the builder and the match.",
+        "Easier to use on a phone and with a keyboard or screen reader."
+      ]
+    },
+    {
+      "version": "v0.4.0",
+      "title": "Your ground in the match",
+      "date": "2026-11-18",
+      "from": "2026-11-16",
+      "sha": null,
+      "kind": "history",
+      "bullets": [
+        "Top-down match highlights with smoother action, a goal replay, and a button to skip to the next highlight.",
+        "The stands you built appear around the pitch in your home matches.",
+        "A test bed to watch any level of football, from the top flight to the Sunday league."
+      ]
+    },
+    {
+      "version": "v0.3.0",
+      "title": "The career and the first look",
+      "date": "2026-11-17",
+      "from": "2026-11-15",
+      "sha": null,
+      "kind": "history",
+      "bullets": [
+        "A playable career: league, cup, tactics, squad and saves, in a portrait pixel-art look with styles to switch between.",
+        "Backroom staff whose advice is only as good as they are.",
+        "Money and a starting ground, built tile by tile, with ticket prices and season tickets.",
+        "Transfers and contracts, and club facilities.",
+        "Decisions in your inbox.",
+        "A single-file build to play from disk, and a Coming Soon list of what isn’t in yet."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+# Title Push: version history
+
+Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
+
+## v0.6.3: Expected points, graded grounds and What’s New
+
+_19 Nov 2026, 10:11 pm UK · build 146e1c9_
+
+- Expected points in the season review. Every match now keeps its expected goals, and the review says how many points your chances were worth against the points you got.
+- Other clubs’ grounds are graded by the same rules as yours. A club that hasn’t built what the tier above needs can’t go up, and the League table says what its ground is missing.
+- What’s New. This panel opens once after each new playtest, with the version history underneath. Open it again from the title screen or the footer.
+- The title screen and the footer show which playtest version you’re playing, and when it was built.
+
+## v0.6.2: League trends
+
+_19 Nov 2026, 7:14 pm UK · build ba9ac3f_
+
+- League trends on the Tactics screen. A new card shows which styles and formations the league is playing this season, with the top three of each and how often each one is used.
+- A headline when one style dominates. When one style is in at least 30% of game plans, you’ll see something like “High Press is everywhere this season”. Otherwise it says “No style dominates”.
+- How to beat the trend. The card names what counters the most common style and formation, for example “Counter or Long Ball beat High Press”.
+- No trend early in the season. It waits until about two rounds have been played before calling one.
+- Results are unchanged. The card only shows information, so no results or match numbers changed.
+
+## v0.6.1: The formation cycle
+
+_19 Nov 2026, 6:14 pm UK · build 47a28dd_
+
+- Formation rock-paper-scissors cycle: wide forwards beat midfield 4/5, midfield 4/5 beats back 3/5, and back 3/5 beats wide forwards.
+- The Tactics screen, opponent habits, the match report’s “Next time” tip, and half-time notes explain the cycle.
+
+## v0.6.0: The first public playtest
+
+_19 Nov 2026, 4:58 pm UK · build 715cd03_
+
+- The game is called Title Push.
+- A match report at full time: what went right, what went wrong, how lucky the finishing was, and a “Next time” tip.
+- Opponent habits on the Tactics screen: what this week’s opponent usually plays, how to counter it, and how your shape lines up against theirs.
+- Half-time choices: take the coach’s advice, stick with your own plan, or set orders for each kind of score and let the coach call it.
+- Touchline shouts at 60 and 75 minutes, to push for a goal or shut the game down.
+- A plan-book editor, and a line saying which plan this week’s match will use.
+- Away grounds drawn to the size of the home club’s ground.
+- Club → Save → “Export playtest timings” records how long you spent on each screen, to send with your feedback.
+
+## v0.5.0: Matchday crowds and the season wrap
+
+_18–19 Nov 2026 · before the public playtests_
+
+- Fans walk to their place on matchday: queue, mood, crowding and sales overlays on the ground, and a replay of the day.
+- Catering prices and staffing, and matchday programmes.
+- Split a stand into sections, or join two stands into one.
+- Tips for your first season.
+- A season review, with your best signing, and the story of twenty seasons with an all-time XI.
+- Weather and floodlights in the match, corner stands, and the same colours for stands in the builder and the match.
+- Easier to use on a phone and with a keyboard or screen reader.
+
+## v0.4.0: Your ground in the match
+
+_16–18 Nov 2026 · before the public playtests_
+
+- Top-down match highlights with smoother action, a goal replay, and a button to skip to the next highlight.
+- The stands you built appear around the pitch in your home matches.
+- A test bed to watch any level of football, from the top flight to the Sunday league.
+
+## v0.3.0: The career and the first look
+
+_15–17 Nov 2026 · before the public playtests_
+
+- A playable career: league, cup, tactics, squad and saves, in a portrait pixel-art look with styles to switch between.
+- Backroom staff whose advice is only as good as they are.
+- Money and a starting ground, built tile by tile, with ticket prices and season tickets.
+- Transfers and contracts, and club facilities.
+- Decisions in your inbox.
+- A single-file build to play from disk, and a Coming Soon list of what isn’t in yet.

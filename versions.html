@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title Push: version history</title>
+    <meta name="description" content="What changed in each Title Push playtest build, newest first." />
+    <meta name="theme-color" content="#111a48" />
+    <style>
+      @font-face {
+        font-family: 'DotGothic16';
+        src: url('fonts/dotgothic16-latin.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Jersey 15';
+        src: url('fonts/jersey15-latin.woff2') format('woff2');
+        font-display: swap;
+      }
+      :root {
+        --ink: #0a0f2c;
+        --text: #ffffff;
+        --text-dim: #b8c3f0;
+        --accent: #ffd84a;
+        --accent-lo: #c98a0e;
+        --win-bg: linear-gradient(180deg, #4d70e6 0%, #2d49c2 38%, #1a2a86 100%);
+        --win-frame: inset 0 0 0 2px #eef1ff, inset 0 0 0 3px #8b99e2;
+        --font-ui: 'DotGothic16', ui-monospace, Menlo, Consolas, monospace;
+        --font-num: 'Jersey 15', 'DotGothic16', ui-monospace, Menlo, Consolas, monospace;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        color: var(--text);
+        font: 16px/1.55 var(--font-ui);
+        background:
+          radial-gradient(120% 70% at 50% 0%, rgb(90 120 255 / 18%), transparent 70%),
+          repeating-conic-gradient(#111a48 0 25%, #152056 0 50%) 0 0 / 16px 16px;
+        background-color: #111a48;
+        text-shadow: 1px 1px 0 var(--ink);
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 24px 16px 48px;
+      }
+      h1 {
+        margin: 0;
+        font: 400 clamp(3rem, 12vw, 5rem) / 0.9 var(--font-num);
+        letter-spacing: 0.02em;
+        color: var(--accent);
+        text-shadow:
+          4px 4px 0 var(--ink),
+          6px 6px 0 #5b3fb0;
+      }
+      .tagline {
+        margin: 14px 0 0;
+        font-size: 1.15rem;
+        color: var(--text-dim);
+      }
+      .back {
+        margin: 0 0 16px;
+      }
+      .window {
+        margin-top: 24px;
+        background: var(--win-bg);
+        box-shadow: var(--win-frame);
+        border: 2px solid var(--ink);
+        padding: 20px;
+      }
+      .window h2 {
+        margin: -20px -20px 12px;
+        padding: 10px 20px;
+        font: 400 1.5rem/1.1 var(--font-num);
+        letter-spacing: 0.05em;
+        color: var(--accent);
+        text-shadow: 2px 2px 0 var(--ink);
+        background: linear-gradient(180deg, rgb(10 15 44 / 10%), rgb(10 15 44 / 45%));
+        box-shadow:
+          inset 0 2px 0 #eef1ff,
+          inset 2px 0 0 #eef1ff,
+          inset -2px 0 0 #eef1ff,
+          inset 0 -2px 0 #8b99e2;
+      }
+      .when {
+        margin: 0;
+        color: var(--text-dim);
+        font-size: 0.9rem;
+      }
+      ul {
+        margin: 10px 0 0;
+        padding-left: 1.3em;
+      }
+      li {
+        margin: 6px 0;
+      }
+      .play {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 24px;
+        font: 400 1.6rem/1 var(--font-num);
+        letter-spacing: 0.06em;
+        color: var(--ink);
+        text-shadow: none;
+        text-decoration: none;
+        background: linear-gradient(180deg, #ffe98a 0%, var(--accent) 48%, #f5b82a 52%, var(--accent-lo) 100%);
+        border: 2px solid var(--ink);
+        box-shadow:
+          inset 0 0 0 2px #fff6c8,
+          4px 4px 0 var(--ink);
+      }
+      .play:focus-visible,
+      a:focus-visible {
+        outline: 3px solid #fff;
+        outline-offset: 3px;
+      }
+      .facts {
+        margin: 14px 0 0;
+        color: var(--text-dim);
+        font-size: 0.95rem;
+      }
+      a {
+        color: var(--accent);
+      }
+      footer {
+        margin-top: 40px;
+        color: var(--text-dim);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="back"><a href="./">← Title Push</a></p>
+      <h1>Version history</h1>
+      <p class="tagline">What changed in each playtest build, newest first.</p>
+      <a class="play" href="play.html">Play v0.6.3</a>
+      <p class="facts">Also as <a href="CHANGELOG.md">CHANGELOG.md</a> and <a href="changelog.json">changelog.json</a>.</p>
+      <section class="window" id="v0-6-3" aria-labelledby="v0-6-3-h">
+        <h2 id="v0-6-3-h">v0.6.3 · Expected points, graded grounds and What’s New</h2>
+        <p class="when">19 Nov 2026, 10:11 pm UK · build 146e1c9</p>
+        <ul>
+          <li>Expected points in the season review. Every match now keeps its expected goals, and the review says how many points your chances were worth against the points you got.</li>
+          <li>Other clubs’ grounds are graded by the same rules as yours. A club that hasn’t built what the tier above needs can’t go up, and the League table says what its ground is missing.</li>
+          <li>What’s New. This panel opens once after each new playtest, with the version history underneath. Open it again from the title screen or the footer.</li>
+          <li>The title screen and the footer show which playtest version you’re playing, and when it was built.</li>
+        </ul>
+      </section>
+      <section class="window" id="v0-6-2" aria-labelledby="v0-6-2-h">
+        <h2 id="v0-6-2-h">v0.6.2 · League trends</h2>
+        <p class="when">19 Nov 2026, 7:14 pm UK · build ba9ac3f</p>
+        <ul>
+          <li>League trends on the Tactics screen. A new card shows which styles and formations the league is playing this season, with the top three of each and how often each one is used.</li>
+          <li>A headline when one style dominates. When one style is in at least 30% of game plans, you’ll see something like “High Press is everywhere this season”. Otherwise it says “No style dominates”.</li>
+          <li>How to beat the trend. The card names what counters the most common style and formation, for example “Counter or Long Ball beat High Press”.</li>
+          <li>No trend early in the season. It waits until about two rounds have been played before calling one.</li>
+          <li>Results are unchanged. The card only shows information, so no results or match numbers changed.</li>
+        </ul>
+      </section>
+      <section class="window" id="v0-6-1" aria-labelledby="v0-6-1-h">
+        <h2 id="v0-6-1-h">v0.6.1 · The formation cycle</h2>
+        <p class="when">19 Nov 2026, 6:14 pm UK · build 47a28dd</p>
+        <ul>
+          <li>Formation rock-paper-scissors cycle: wide forwards beat midfield 4/5, midfield 4/5 beats back 3/5, and back 3/5 beats wide forwards.</li>
+          <li>The Tactics screen, opponent habits, the match report’s “Next time” tip, and half-time notes explain the cycle.</li>
+        </ul>
+      </section>
+      <section class="window" id="v0-6-0" aria-labelledby="v0-6-0-h">
+        <h2 id="v0-6-0-h">v0.6.0 · The first public playtest</h2>
+        <p class="when">19 Nov 2026, 4:58 pm UK · build 715cd03</p>
+        <ul>
+          <li>The game is called Title Push.</li>
+          <li>A match report at full time: what went right, what went wrong, how lucky the finishing was, and a “Next time” tip.</li>
+          <li>Opponent habits on the Tactics screen: what this week’s opponent usually plays, how to counter it, and how your shape lines up against theirs.</li>
+          <li>Half-time choices: take the coach’s advice, stick with your own plan, or set orders for each kind of score and let the coach call it.</li>
+          <li>Touchline shouts at 60 and 75 minutes, to push for a goal or shut the game down.</li>
+          <li>A plan-book editor, and a line saying which plan this week’s match will use.</li>
+          <li>Away grounds drawn to the size of the home club’s ground.</li>
+          <li>Club → Save → “Export playtest timings” records how long you spent on each screen, to send with your feedback.</li>
+        </ul>
+      </section>
+      <section class="window" id="v0-5-0" aria-labelledby="v0-5-0-h">
+        <h2 id="v0-5-0-h">v0.5.0 · Matchday crowds and the season wrap</h2>
+        <p class="when">18–19 Nov 2026 · before the public playtests</p>
+        <ul>
+          <li>Fans walk to their place on matchday: queue, mood, crowding and sales overlays on the ground, and a replay of the day.</li>
+          <li>Catering prices and staffing, and matchday programmes.</li>
+          <li>Split a stand into sections, or join two stands into one.</li>
+          <li>Tips for your first season.</li>
+          <li>A season review, with your best signing, and the story of twenty seasons with an all-time XI.</li>
+          <li>Weather and floodlights in the match, corner stands, and the same colours for stands in the builder and the match.</li>
+          <li>Easier to use on a phone and with a keyboard or screen reader.</li>
+        </ul>
+      </section>
+      <section class="window" id="v0-4-0" aria-labelledby="v0-4-0-h">
+        <h2 id="v0-4-0-h">v0.4.0 · Your ground in the match</h2>
+        <p class="when">16–18 Nov 2026 · before the public playtests</p>
+        <ul>
+          <li>Top-down match highlights with smoother action, a goal replay, and a button to skip to the next highlight.</li>
+          <li>The stands you built appear around the pitch in your home matches.</li>
+          <li>A test bed to watch any level of football, from the top flight to the Sunday league.</li>
+        </ul>
+      </section>
+      <section class="window" id="v0-3-0" aria-labelledby="v0-3-0-h">
+        <h2 id="v0-3-0-h">v0.3.0 · The career and the first look</h2>
+        <p class="when">15–17 Nov 2026 · before the public playtests</p>
+        <ul>
+          <li>A playable career: league, cup, tactics, squad and saves, in a portrait pixel-art look with styles to switch between.</li>
+          <li>Backroom staff whose advice is only as good as they are.</li>
+          <li>Money and a starting ground, built tile by tile, with ticket prices and season tickets.</li>
+          <li>Transfers and contracts, and club facilities.</li>
+          <li>Decisions in your inbox.</li>
+          <li>A single-file build to play from disk, and a Coming Soon list of what isn’t in yet.</li>
+        </ul>
+      </section>
+      <footer>
+        <p>Title Push · a playtest build · <a href="./">home</a></p>
+      </footer>
+    </main>
+  </body>
+</html>
