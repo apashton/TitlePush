@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Title Push</title>
+    <meta
+      name="description"
+      content="A football management game in your browser. Start on a roped-off park pitch and push your club, and its ground, all the way to the top of the table."
+    />
+    <meta property="og:title" content="Title Push" />
+    <meta
+      property="og:description"
+      content="Start in the County Sunday League. Build the ground, outthink the opposition, and push for the title, ten tiers up."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://apashton.github.io/TitlePush/" />
+    <meta property="og:image" content="https://apashton.github.io/TitlePush/img/title.png" />
+    <meta name="theme-color" content="#111a48" />
+    <style>
+      @font-face {
+        font-family: 'DotGothic16';
+        src: url('fonts/dotgothic16-latin.woff2') format('woff2');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Jersey 15';
+        src: url('fonts/jersey15-latin.woff2') format('woff2');
+        font-display: swap;
+      }
+      :root {
+        --ink: #0a0f2c;
+        --text: #ffffff;
+        --text-dim: #b8c3f0;
+        --accent: #ffd84a;
+        --accent-lo: #c98a0e;
+        --win-bg: linear-gradient(180deg, #4d70e6 0%, #2d49c2 38%, #1a2a86 100%);
+        --win-frame: inset 0 0 0 2px #eef1ff, inset 0 0 0 3px #8b99e2;
+        --font-ui: 'DotGothic16', ui-monospace, Menlo, Consolas, monospace;
+        --font-num: 'Jersey 15', 'DotGothic16', ui-monospace, Menlo, Consolas, monospace;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        color: var(--text);
+        font: 16px/1.55 var(--font-ui);
+        background:
+          radial-gradient(120% 70% at 50% 0%, rgb(90 120 255 / 18%), transparent 70%),
+          repeating-conic-gradient(#111a48 0 25%, #152056 0 50%) 0 0 / 16px 16px;
+        background-color: #111a48;
+        text-shadow: 1px 1px 0 var(--ink);
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 32px 16px 48px;
+      }
+      h1 {
+        margin: 0;
+        font: 400 clamp(4rem, 18vw, 7.5rem) / 0.86 var(--font-num);
+        letter-spacing: 0.02em;
+        color: var(--accent);
+        text-shadow:
+          4px 4px 0 var(--ink),
+          6px 6px 0 #5b3fb0;
+      }
+      .tagline {
+        margin: 14px 0 0;
+        font-size: 1.15rem;
+        color: var(--text-dim);
+      }
+      .hero {
+        display: grid;
+        gap: 28px;
+        align-items: center;
+        grid-template-columns: 1fr;
+      }
+      @media (min-width: 760px) {
+        .hero {
+          grid-template-columns: 1.1fr 0.9fr;
+        }
+      }
+      .window {
+        background: var(--win-bg);
+        box-shadow: var(--win-frame);
+        border: 2px solid var(--ink);
+        padding: 20px;
+      }
+      .window h2 {
+        margin: -20px -20px 16px;
+        padding: 10px 20px;
+        font: 400 1.5rem/1.1 var(--font-num);
+        letter-spacing: 0.05em;
+        color: var(--accent);
+        text-shadow: 2px 2px 0 var(--ink);
+        background: linear-gradient(180deg, rgb(10 15 44 / 10%), rgb(10 15 44 / 45%));
+        box-shadow:
+          inset 0 2px 0 #eef1ff,
+          inset 2px 0 0 #eef1ff,
+          inset -2px 0 0 #eef1ff,
+          inset 0 -2px 0 #8b99e2;
+      }
+      .play {
+        display: inline-block;
+        margin-top: 24px;
+        padding: 14px 28px;
+        font: 400 1.9rem/1 var(--font-num);
+        letter-spacing: 0.06em;
+        color: var(--ink);
+        text-shadow: none;
+        text-decoration: none;
+        background: linear-gradient(180deg, #ffe98a 0%, var(--accent) 48%, #f5b82a 52%, var(--accent-lo) 100%);
+        border: 2px solid var(--ink);
+        box-shadow:
+          inset 0 0 0 2px #fff6c8,
+          4px 4px 0 var(--ink);
+      }
+      .play:hover {
+        filter: brightness(1.06);
+      }
+      .play:active {
+        transform: translate(2px, 2px);
+        box-shadow:
+          inset 0 0 0 2px #fff6c8,
+          2px 2px 0 var(--ink);
+      }
+      .play:focus-visible,
+      a:focus-visible {
+        outline: 3px solid #fff;
+        outline-offset: 3px;
+      }
+      .facts {
+        margin: 16px 0 0;
+        color: var(--text-dim);
+        font-size: 0.95rem;
+      }
+      .shot {
+        display: block;
+        width: 100%;
+        height: auto;
+        image-rendering: pixelated;
+        border: 2px solid var(--ink);
+        box-shadow: 4px 4px 0 var(--ink);
+      }
+      .features {
+        display: grid;
+        gap: 20px;
+        margin-top: 40px;
+        grid-template-columns: 1fr;
+      }
+      @media (min-width: 760px) {
+        .features {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      .features p {
+        margin: 12px 0 0;
+      }
+      .features .window {
+        padding-bottom: 16px;
+      }
+      .ladder {
+        margin: 40px 0 0;
+      }
+      .ladder ol {
+        margin: 0;
+        padding-left: 1.6em;
+      }
+      .ladder li {
+        margin: 6px 0;
+      }
+      .ladder li::marker {
+        font-family: var(--font-num);
+        color: var(--accent);
+      }
+      a {
+        color: var(--accent);
+      }
+      footer {
+        margin-top: 40px;
+        color: var(--text-dim);
+        font-size: 0.9rem;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .play:active {
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <div>
+          <h1 id="title">Title<br />Push</h1>
+          <p class="tagline">Get your club to the top of the table.</p>
+          <p>
+            Start on a roped-off park pitch in the County Sunday League, ten tiers from the top. Build the
+            ground a stand at a time, outthink the manager in the other dugout, and push for the title every
+            season until there's nowhere left to climb.
+          </p>
+          <a class="play" href="play.html">Play now</a>
+          <p class="facts">Free · plays in your browser · saves on your device · a playtest build</p>
+        </div>
+        <img
+          class="shot"
+          src="img/title.png"
+          width="780"
+          height="880"
+          alt="The Title Push title screen: a park pitch seen from above, with players in your colours warming up"
+          style="max-width: 360px; justify-self: center"
+        />
+      </section>
+
+      <section class="features" aria-label="What you do">
+        <div class="window">
+          <h2>Build the ground</h2>
+          <img
+            class="shot"
+            src="img/ground.png"
+            width="644"
+            height="678"
+            alt="The ground builder from above: the pitch, a covered terrace down one side and seated stands at each end"
+          />
+          <p>
+            Terraces, seats, roofs, tea huts and turnstiles. Fans walk to their place, queue at half-time and
+            judge the pies. A bigger, better ground pays for the next step up.
+          </p>
+        </div>
+        <div class="window">
+          <h2>Read the game</h2>
+          <img
+            class="shot"
+            src="img/match.png"
+            width="688"
+            height="634"
+            alt="A match in progress, seen from above, with both teams in their kits"
+          />
+          <p>
+            Five simple dials and a grid for your players. Every style beats two and loses to two. Spot a
+            manager's habits, counter them, shout from the touchline, and see what went right or wrong after
+            the whistle.
+          </p>
+        </div>
+        <div class="window">
+          <h2>Push for the title</h2>
+          <p>
+            Every league has a title. Win it at the bottom and you go up; win it at the top and it's the
+            point. Twenty seasons to get as far as you can, with friends' leagues to race in later.
+          </p>
+          <p>
+            It's free: no adverts, and nothing in the game is for sale.
+          </p>
+          <a class="play" href="play.html">Kick off</a>
+        </div>
+      </section>
+
+      <section class="ladder window" aria-labelledby="playtest">
+        <h2 id="playtest">This is a playtest</h2>
+        <ol>
+          <li>Play a season or two. It takes about 40 minutes a season.</li>
+          <li>Your game saves in this browser automatically. Club → Save can export it to a file.</li>
+          <li>
+            Tell us what worked and what didn't:
+            <a href="https://github.com/apashton/TitlePush/issues">open an issue</a> with what happened. Club →
+            Save → "Export playtest timings" adds how long you spent on each screen.
+          </li>
+        </ol>
+      </section>
+
+      <footer>
+        <p>
+          Title Push · a playtest build · fonts: DotGothic16 and Jersey 15, under the SIL Open Font License
+          (<a href="fonts/OFL-dotgothic16.txt">DotGothic16</a>, <a href="fonts/OFL-jersey15.txt">Jersey 15</a>)
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
