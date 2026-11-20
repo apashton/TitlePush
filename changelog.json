@@ -1,12 +1,25 @@
 {
   "name": "Title Push",
-  "current": "v0.6.7",
+  "current": "v0.6.8",
   "build": {
-    "version": "v0.6.7",
-    "sha": "d74fc86",
-    "date": "2026-11-20 11:42"
+    "version": "v0.6.8",
+    "sha": "6edd270",
+    "date": "2026-11-20 12:12"
   },
   "entries": [
+    {
+      "version": "v0.6.8",
+      "title": "What the coach thinks would have happened",
+      "date": "2026-11-20",
+      "time": "12:12",
+      "sha": "6edd270",
+      "kind": "playtest",
+      "bullets": [
+        "After a match, your assistant may tell you what would have happened with one thing different: the style or formation that beats theirs, the half-time call you didn’t make, or (in a match you watch) the shout. It’s worked out by playing the same match again that way.",
+        "He’s honest about it: “we’d have won that” only when the replay was clearly better, “might have, could be luck” when it wasn’t, and when nothing would have saved it, he says so.",
+        "For a match you skip, the line appears with the last result on the main menu."
+      ]
+    },
     {
       "version": "v0.6.7",
       "title": "Counting visits to the website",

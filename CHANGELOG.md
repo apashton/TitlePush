@@ -2,6 +2,14 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.8: What the coach thinks would have happened
+
+_20 Nov 2026, 12:12 pm UK · build 6edd270_
+
+- After a match, your assistant may tell you what would have happened with one thing different: the style or formation that beats theirs, the half-time call you didn’t make, or (in a match you watch) the shout. It’s worked out by playing the same match again that way.
+- He’s honest about it: “we’d have won that” only when the replay was clearly better, “might have, could be luck” when it wasn’t, and when nothing would have saved it, he says so.
+- For a match you skip, the line appears with the last result on the main menu.
+
 ## v0.6.7: Counting visits to the website
 
 _20 Nov 2026, 11:42 am UK · build d74fc86_
