@@ -2,9 +2,17 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.9: Leagues with friends
+
+_20 Nov 2026, 4:07 pm UK · build b654e37_
+
+- Leagues with friends: make a competition, send your friends the link, and each of you runs a club in one shared world. Sign in with the same account as cloud saves.
+- The matches play at a deadline, once or twice a day, one to five matches at a time. Before it, use the screens you know (your team, plan book, training, ground, transfers and money) and it all goes in as your orders.
+- After the deadline everyone sees the same results, and you can watch the highlights of your matches. Miss three deadlines in a row and your club runs itself until you’re back.
+
 ## v0.6.8: What the coach thinks would have happened
 
-_20 Nov 2026, 12:12 pm UK · build 6edd270_
+_20 Nov 2026, 12:13 pm UK · build 6edd270_
 
 - After a match, your assistant may tell you what would have happened with one thing different: the style or formation that beats theirs, the half-time call you didn’t make, or (in a match you watch) the shout. It’s worked out by playing the same match again that way.
 - He’s honest about it: “we’d have won that” only when the replay was clearly better, “might have, could be luck” when it wasn’t, and when nothing would have saved it, he says so.
