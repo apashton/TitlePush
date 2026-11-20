@@ -2,6 +2,12 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.6: Let the club build the ground
+
+_20 Nov 2026, 11:14 am UK · build d0feffb_
+
+- Let the club build your ground. On the Ground page, or when you start a career, choose who builds it: you, or the club. The club builds what the next grade needs first, then what the fans are short of, sets fair prices and never spends you into the red. It pays a contractor 15% on top and won’t squeeze the most out of a sell-out, so a ground you design yourself can earn more.
+
 ## v0.6.5: Shouts without stopping the match
 
 _19 Nov 2026, 11:52 pm UK · build 169a156_

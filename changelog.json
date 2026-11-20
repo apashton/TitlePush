@@ -1,12 +1,23 @@
 {
   "name": "Title Push",
-  "current": "v0.6.5",
+  "current": "v0.6.6",
   "build": {
-    "version": "v0.6.5",
-    "sha": "169a156",
-    "date": "2026-11-19 23:52"
+    "version": "v0.6.6",
+    "sha": "d0feffb",
+    "date": "2026-11-20 11:14"
   },
   "entries": [
+    {
+      "version": "v0.6.6",
+      "title": "Let the club build the ground",
+      "date": "2026-11-20",
+      "time": "11:14",
+      "sha": "d0feffb",
+      "kind": "playtest",
+      "bullets": [
+        "Let the club build your ground. On the Ground page, or when you start a career, choose who builds it: you, or the club. The club builds what the next grade needs first, then what the fans are short of, sets fair prices and never spends you into the red. It pays a contractor 15% on top and won’t squeeze the most out of a sell-out, so a ground you design yourself can earn more."
+      ]
+    },
     {
       "version": "v0.6.5",
       "title": "Shouts without stopping the match",
