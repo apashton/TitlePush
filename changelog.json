@@ -1,17 +1,29 @@
 {
   "name": "Title Push",
-  "current": "v0.6.9",
+  "current": "v0.6.10",
   "build": {
-    "version": "v0.6.9",
-    "sha": "b654e37",
-    "date": "2026-11-20 16:07"
+    "version": "v0.6.10",
+    "sha": "9c6e5b7",
+    "date": "2026-11-20 19:26"
   },
   "entries": [
+    {
+      "version": "v0.6.10",
+      "title": "Open leagues and friends",
+      "date": "2026-11-20",
+      "time": "19:26",
+      "sha": "9c6e5b7",
+      "kind": "playtest",
+      "bullets": [
+        "Open leagues: a league can be open to anyone. It’s listed under Open leagues, where any manager can find it and join, no link needed. Or keep it to people with the link.",
+        "Friends: everyone has a friend code. Add a friend by their code or link, and once they accept you can invite each other to leagues. Invites wait for them under Leagues with friends."
+      ]
+    },
     {
       "version": "v0.6.9",
       "title": "Leagues with friends",
       "date": "2026-11-20",
-      "time": "16:07",
+      "time": "16:16",
       "sha": "b654e37",
       "kind": "playtest",
       "bullets": [

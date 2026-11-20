@@ -2,9 +2,16 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.10: Open leagues and friends
+
+_20 Nov 2026, 7:26 pm UK · build 9c6e5b7_
+
+- Open leagues: a league can be open to anyone. It’s listed under Open leagues, where any manager can find it and join, no link needed. Or keep it to people with the link.
+- Friends: everyone has a friend code. Add a friend by their code or link, and once they accept you can invite each other to leagues. Invites wait for them under Leagues with friends.
+
 ## v0.6.9: Leagues with friends
 
-_20 Nov 2026, 4:07 pm UK · build b654e37_
+_20 Nov 2026, 4:16 pm UK · build b654e37_
 
 - Leagues with friends: make a competition, send your friends the link, and each of you runs a club in one shared world. Sign in with the same account as cloud saves.
 - The matches play at a deadline, once or twice a day, one to five matches at a time. Before it, use the screens you know (your team, plan book, training, ground, transfers and money) and it all goes in as your orders.
