@@ -17,6 +17,20 @@
     <meta property="og:url" content="https://apashton.github.io/TitlePush/" />
     <meta property="og:image" content="https://apashton.github.io/TitlePush/img/title.png" />
     <meta name="theme-color" content="#111a48" />
+    <script>
+      // Visit counting (GoatCounter, no cookies): only on the public site, and not when the browser
+      // asks not to be tracked. Offline, local and file:// copies send nothing.
+      (function () {
+        var n = navigator, w = window;
+        var dnt = n.doNotTrack === '1' || n.doNotTrack === 'yes' || w.doNotTrack === '1' || n.msDoNotTrack === '1' || n.globalPrivacyControl === true;
+        if (location.protocol !== 'https:' || location.hostname !== "apashton.github.io" || dnt) return;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://gc.zgo.at/count.js';
+        s.setAttribute('data-goatcounter', 'https://title-push.goatcounter.com/count');
+        document.head.appendChild(s);
+      })();
+    </script>
     <style>
       @font-face {
         font-family: 'DotGothic16';
