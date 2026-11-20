@@ -2,6 +2,12 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.7: Counting visits to the website
+
+_20 Nov 2026, 11:42 am UK · build d74fc86_
+
+- The website now counts visits, anonymously: no cookies, nothing about you, and nothing at all if your browser asks not to be tracked. The game opened from your own computer never counts.
+
 ## v0.6.6: Let the club build the ground
 
 _20 Nov 2026, 11:14 am UK · build d0feffb_

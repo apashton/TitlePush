@@ -1,12 +1,23 @@
 {
   "name": "Title Push",
-  "current": "v0.6.6",
+  "current": "v0.6.7",
   "build": {
-    "version": "v0.6.6",
-    "sha": "d0feffb",
-    "date": "2026-11-20 11:14"
+    "version": "v0.6.7",
+    "sha": "d74fc86",
+    "date": "2026-11-20 11:42"
   },
   "entries": [
+    {
+      "version": "v0.6.7",
+      "title": "Counting visits to the website",
+      "date": "2026-11-20",
+      "time": "11:42",
+      "sha": "d74fc86",
+      "kind": "playtest",
+      "bullets": [
+        "The website now counts visits, anonymously: no cookies, nothing about you, and nothing at all if your browser asks not to be tracked. The game opened from your own computer never counts."
+      ]
+    },
     {
       "version": "v0.6.6",
       "title": "Let the club build the ground",

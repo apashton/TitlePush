@@ -6,6 +6,20 @@
     <title>Title Push: version history</title>
     <meta name="description" content="What changed in each Title Push playtest build, newest first." />
     <meta name="theme-color" content="#111a48" />
+    <script>
+      // Visit counting (GoatCounter, no cookies): only on the public site, and not when the browser
+      // asks not to be tracked. Offline, local and file:// copies send nothing.
+      (function () {
+        var n = navigator, w = window;
+        var dnt = n.doNotTrack === '1' || n.doNotTrack === 'yes' || w.doNotTrack === '1' || n.msDoNotTrack === '1' || n.globalPrivacyControl === true;
+        if (location.protocol !== 'https:' || location.hostname !== "apashton.github.io" || dnt) return;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://gc.zgo.at/count.js';
+        s.setAttribute('data-goatcounter', 'https://title-push.goatcounter.com/count');
+        document.head.appendChild(s);
+      })();
+    </script>
     <style>
       @font-face {
         font-family: 'DotGothic16';
@@ -139,8 +153,15 @@
       <p class="back"><a href="./">← Title Push</a></p>
       <h1>Version history</h1>
       <p class="tagline">What changed in each playtest build, newest first.</p>
-      <a class="play" href="play.html">Play v0.6.6</a>
+      <a class="play" href="play.html">Play v0.6.7</a>
       <p class="facts">Also as <a href="CHANGELOG.md">CHANGELOG.md</a> and <a href="changelog.json">changelog.json</a>.</p>
+      <section class="window" id="v0-6-7" aria-labelledby="v0-6-7-h">
+        <h2 id="v0-6-7-h">v0.6.7 · Counting visits to the website</h2>
+        <p class="when">20 Nov 2026, 11:42 am UK · build d74fc86</p>
+        <ul>
+          <li>The website now counts visits, anonymously: no cookies, nothing about you, and nothing at all if your browser asks not to be tracked. The game opened from your own computer never counts.</li>
+        </ul>
+      </section>
       <section class="window" id="v0-6-6" aria-labelledby="v0-6-6-h">
         <h2 id="v0-6-6-h">v0.6.6 · Let the club build the ground</h2>
         <p class="when">20 Nov 2026, 11:14 am UK · build d0feffb</p>
