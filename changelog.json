@@ -1,12 +1,26 @@
 {
   "name": "Title Push",
-  "current": "v0.6.16",
+  "current": "v0.6.17",
   "build": {
-    "version": "v0.6.16",
-    "sha": "fa1adaa",
-    "date": "2026-11-21 22:48"
+    "version": "v0.6.17",
+    "sha": "00a8380",
+    "date": "2026-11-21 23:16"
   },
   "entries": [
+    {
+      "version": "v0.6.17",
+      "title": "A new stadium",
+      "date": "2026-11-21",
+      "time": "23:16",
+      "sha": "00a8380",
+      "kind": "playtest",
+      "bullets": [
+        "A new stadium. From tier 4, the Ground page offers three sites: by the ring road, by the railway, or on the old gasworks. Buy one and build a whole new ground there over the seasons while you keep playing at home.",
+        "Switch the builder between your ground and the new stadium. Building there works just as it does at home, and costs its upkeep as things finish, but it earns nothing until you move.",
+        "Move in during a close season, before the season tickets go on sale, once the new ground passes the grade for your tier and holds more than the old one. The old ground is sold for housing.",
+        "A new ground takes a season to feel like home: home advantage starts lower and builds over 19 home matches, and a few fans won’t make the move."
+      ]
+    },
     {
       "version": "v0.6.16",
       "title": "The big ground",

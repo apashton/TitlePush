@@ -2,6 +2,15 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.17: A new stadium
+
+_21 Nov 2026, 11:16 pm UK · build 00a8380_
+
+- A new stadium. From tier 4, the Ground page offers three sites: by the ring road, by the railway, or on the old gasworks. Buy one and build a whole new ground there over the seasons while you keep playing at home.
+- Switch the builder between your ground and the new stadium. Building there works just as it does at home, and costs its upkeep as things finish, but it earns nothing until you move.
+- Move in during a close season, before the season tickets go on sale, once the new ground passes the grade for your tier and holds more than the old one. The old ground is sold for housing.
+- A new ground takes a season to feel like home: home advantage starts lower and builds over 19 home matches, and a few fans won’t make the move.
+
 ## v0.6.16: The big ground
 
 _21 Nov 2026, 10:48 pm UK · build fa1adaa_
