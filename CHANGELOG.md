@@ -2,9 +2,17 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.11: The end of a match
+
+_21 Nov 2026, 11:57 am UK · build 2f2f7db_
+
+- The players no longer freeze at the final whistle. A narrow win ends with the winners running together to celebrate while the beaten side trudge off; a draw ends in handshakes. At half time everyone walks off, and the referee takes the ball.
+- When your side scores, the fans in the stands throw their arms in the air.
+- Arms raised look right now: the keeper’s dive reaches past his head, and the referee holds a card up high.
+
 ## v0.6.10: Open leagues and friends
 
-_20 Nov 2026, 7:26 pm UK · build 9c6e5b7_
+_20 Nov 2026, 7:27 pm UK · build 9c6e5b7_
 
 - Open leagues: a league can be open to anyone. It’s listed under Open leagues, where any manager can find it and join, no link needed. Or keep it to people with the link.
 - Friends: everyone has a friend code. Add a friend by their code or link, and once they accept you can invite each other to leagues. Invites wait for them under Leagues with friends.

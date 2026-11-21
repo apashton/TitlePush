@@ -1,17 +1,30 @@
 {
   "name": "Title Push",
-  "current": "v0.6.10",
+  "current": "v0.6.11",
   "build": {
-    "version": "v0.6.10",
-    "sha": "9c6e5b7",
-    "date": "2026-11-20 19:26"
+    "version": "v0.6.11",
+    "sha": "2f2f7db",
+    "date": "2026-11-21 11:57"
   },
   "entries": [
+    {
+      "version": "v0.6.11",
+      "title": "The end of a match",
+      "date": "2026-11-21",
+      "time": "11:57",
+      "sha": "2f2f7db",
+      "kind": "playtest",
+      "bullets": [
+        "The players no longer freeze at the final whistle. A narrow win ends with the winners running together to celebrate while the beaten side trudge off; a draw ends in handshakes. At half time everyone walks off, and the referee takes the ball.",
+        "When your side scores, the fans in the stands throw their arms in the air.",
+        "Arms raised look right now: the keeper’s dive reaches past his head, and the referee holds a card up high."
+      ]
+    },
     {
       "version": "v0.6.10",
       "title": "Open leagues and friends",
       "date": "2026-11-20",
-      "time": "19:26",
+      "time": "19:27",
       "sha": "9c6e5b7",
       "kind": "playtest",
       "bullets": [
