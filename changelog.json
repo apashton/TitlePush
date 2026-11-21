@@ -1,12 +1,27 @@
 {
   "name": "Title Push",
-  "current": "v0.6.17",
+  "current": "v0.6.18",
   "build": {
-    "version": "v0.6.17",
-    "sha": "00a8380",
-    "date": "2026-11-21 23:16"
+    "version": "v0.6.18",
+    "sha": "2047fa9",
+    "date": "2026-11-21 23:45"
   },
   "entries": [
+    {
+      "version": "v0.6.18",
+      "title": "Training you can push",
+      "date": "2026-11-21",
+      "time": "23:45",
+      "sha": "2047fa9",
+      "kind": "playtest",
+      "bullets": [
+        "Set how hard the week is. Hard training brings the squad on faster but they recover less and now and then someone picks up a knock; a light week does the opposite.",
+        "Push up to four players one to one so they come on faster, or rest a tired player: he sits training out and gets his legs back.",
+        "The Training page now shows every player’s fitness, what the last development step did to him, and what the coaches expect at the next one. Your assistant tells you who needs a rest and when the next step is.",
+        "After each development step your inbox says who came on and who went back.",
+        "The Attack, Defence and Rest focuses now affect development too: attackers or defenders come on a little faster, and nobody develops in a rest week."
+      ]
+    },
     {
       "version": "v0.6.17",
       "title": "A new stadium",

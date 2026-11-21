@@ -2,6 +2,16 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.18: Training you can push
+
+_21 Nov 2026, 11:45 pm UK · build 2047fa9_
+
+- Set how hard the week is. Hard training brings the squad on faster but they recover less and now and then someone picks up a knock; a light week does the opposite.
+- Push up to four players one to one so they come on faster, or rest a tired player: he sits training out and gets his legs back.
+- The Training page now shows every player’s fitness, what the last development step did to him, and what the coaches expect at the next one. Your assistant tells you who needs a rest and when the next step is.
+- After each development step your inbox says who came on and who went back.
+- The Attack, Defence and Rest focuses now affect development too: attackers or defenders come on a little faster, and nobody develops in a rest week.
+
 ## v0.6.17: A new stadium
 
 _21 Nov 2026, 11:16 pm UK · build 00a8380_
