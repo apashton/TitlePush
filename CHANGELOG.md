@@ -2,6 +2,13 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.14: A nudge to the home screen
+
+_21 Nov 2026, 6:45 pm UK · build 0f687c7_
+
+- On a phone, once you’ve played your first match, the game offers to go on your home screen, with the steps for your phone and the icon to look for at each one. Not now, and it asks again in a few days, three times at most; or tap Don’t ask again.
+- On an iPhone or iPad it reminds you first to save your career to the cloud, because the home-screen game keeps its own saves.
+
 ## v0.6.13: Play from your home screen
 
 _21 Nov 2026, 12:56 pm UK · build 8ae5f28_
