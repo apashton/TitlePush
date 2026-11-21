@@ -2,6 +2,12 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.12: What’s in the game, brought up to date
+
+_21 Nov 2026, 12:08 pm UK · build 045c9c7_
+
+- The title screen’s list of what’s in the game now includes cloud saves and matchday sound, and no longer says your game saves in this browser only. Online leagues, cloud saves and the crowd’s sound are off the Coming Soon list; music is still to come.
+
 ## v0.6.11: The end of a match
 
 _21 Nov 2026, 11:57 am UK · build 2f2f7db_

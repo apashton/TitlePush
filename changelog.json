@@ -1,12 +1,23 @@
 {
   "name": "Title Push",
-  "current": "v0.6.11",
+  "current": "v0.6.12",
   "build": {
-    "version": "v0.6.11",
-    "sha": "2f2f7db",
-    "date": "2026-11-21 11:57"
+    "version": "v0.6.12",
+    "sha": "045c9c7",
+    "date": "2026-11-21 12:08"
   },
   "entries": [
+    {
+      "version": "v0.6.12",
+      "title": "What’s in the game, brought up to date",
+      "date": "2026-11-21",
+      "time": "12:08",
+      "sha": "045c9c7",
+      "kind": "playtest",
+      "bullets": [
+        "The title screen’s list of what’s in the game now includes cloud saves and matchday sound, and no longer says your game saves in this browser only. Online leagues, cloud saves and the crowd’s sound are off the Coming Soon list; music is still to come."
+      ]
+    },
     {
       "version": "v0.6.11",
       "title": "The end of a match",
