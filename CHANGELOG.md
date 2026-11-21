@@ -2,6 +2,14 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.16: The big ground
+
+_21 Nov 2026, 10:48 pm UK · build fa1adaa_
+
+- Five new buildings for a club on the rise. From tier 6: a fan zone (drink for 8,000 and a louder ground) and a club museum, which earns more the more your club has won. From tier 5: a conference suite (it needs a function room). From tier 4: a hotel, where visiting fans stay over, and a rail halt.
+- A railway now runs along the top of the map. Build the rail halt against it, on the northern land, and 12,000 more fans can get to the ground.
+- When the club builds your ground for you, it builds these too once it can afford them.
+
 ## v0.6.15: The match day, tightened up
 
 _21 Nov 2026, 7:02 pm UK · build 817d1bf_
