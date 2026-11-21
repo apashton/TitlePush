@@ -2,6 +2,15 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.15: The match day, tightened up
+
+_21 Nov 2026, 7:02 pm UK · build 817d1bf_
+
+- The score and the match stay at the top of the screen while you scroll, with the latest moment underneath and a thin bar showing how far through the match it is.
+- Everything else sits below: the controls (now in two tidy rows), kick-off and the half-time call, the paper and the report, the other scores and the commentary. The stats are at the very bottom.
+- A smaller scoreboard and tighter controls mean the whole first half fits on one phone screen. The match itself is the same size as before.
+- Fixed: the half-time and full-time stats table showed the team names in a column away from their numbers.
+
 ## v0.6.14: A nudge to the home screen
 
 _21 Nov 2026, 6:45 pm UK · build 0f687c7_

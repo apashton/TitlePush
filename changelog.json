@@ -1,12 +1,26 @@
 {
   "name": "Title Push",
-  "current": "v0.6.14",
+  "current": "v0.6.15",
   "build": {
-    "version": "v0.6.14",
-    "sha": "0f687c7",
-    "date": "2026-11-21 18:45"
+    "version": "v0.6.15",
+    "sha": "817d1bf",
+    "date": "2026-11-21 19:02"
   },
   "entries": [
+    {
+      "version": "v0.6.15",
+      "title": "The match day, tightened up",
+      "date": "2026-11-21",
+      "time": "19:02",
+      "sha": "817d1bf",
+      "kind": "playtest",
+      "bullets": [
+        "The score and the match stay at the top of the screen while you scroll, with the latest moment underneath and a thin bar showing how far through the match it is.",
+        "Everything else sits below: the controls (now in two tidy rows), kick-off and the half-time call, the paper and the report, the other scores and the commentary. The stats are at the very bottom.",
+        "A smaller scoreboard and tighter controls mean the whole first half fits on one phone screen. The match itself is the same size as before.",
+        "Fixed: the half-time and full-time stats table showed the team names in a column away from their numbers."
+      ]
+    },
     {
       "version": "v0.6.14",
       "title": "A nudge to the home screen",
