@@ -5,6 +5,10 @@ ten tiers from the top, and push your club, and its ground, all the way to the t
 
 **Play: https://apashton.github.io/TitlePush/**
 
+**On a phone:** put it on your home screen and it opens like an app, always on the newest playtest. On
+Android, tap Install on the game's title screen (or use the browser's menu); on an iPhone or iPad, tap
+Share, then Add to Home Screen.
+
 **What's new:** [version history](https://apashton.github.io/TitlePush/versions.html) (also
 [`CHANGELOG.md`](CHANGELOG.md) and [`changelog.json`](changelog.json)). Each playtest is tagged, and
 newer ones have a [release](https://github.com/apashton/TitlePush/releases) with the game attached.
