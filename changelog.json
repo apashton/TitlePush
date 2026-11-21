@@ -1,12 +1,27 @@
 {
   "name": "Title Push",
-  "current": "v0.6.12",
+  "current": "v0.6.13",
   "build": {
-    "version": "v0.6.12",
-    "sha": "045c9c7",
-    "date": "2026-11-21 12:08"
+    "version": "v0.6.13",
+    "sha": "8ae5f28",
+    "date": "2026-11-21 12:56"
   },
   "entries": [
+    {
+      "version": "v0.6.13",
+      "title": "Play from your home screen",
+      "date": "2026-11-21",
+      "time": "12:56",
+      "sha": "8ae5f28",
+      "kind": "playtest",
+      "bullets": [
+        "Put Title Push on your home screen and it opens like an app, full screen. On Android, tap Install on the title screen (or in Club → Save); on an iPhone or iPad, tap Share, then Add to Home Screen.",
+        "The home-screen game always opens the newest playtest, and once you’ve played it, it opens without a signal too.",
+        "Left open while a new playtest goes up, the game tells you, and Reload brings it in. It never reloads by itself in the middle of a match.",
+        "On an iPhone or iPad, the home-screen game keeps its own saves, apart from the browser’s. Use cloud saves to take a career across.",
+        "The game has an icon now, in the browser tab too."
+      ]
+    },
     {
       "version": "v0.6.12",
       "title": "What’s in the game, brought up to date",

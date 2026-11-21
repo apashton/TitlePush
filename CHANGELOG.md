@@ -2,6 +2,16 @@
 
 Every playtest build, newest first. Play the latest at https://apashton.github.io/TitlePush/ .
 
+## v0.6.13: Play from your home screen
+
+_21 Nov 2026, 12:56 pm UK · build 8ae5f28_
+
+- Put Title Push on your home screen and it opens like an app, full screen. On Android, tap Install on the title screen (or in Club → Save); on an iPhone or iPad, tap Share, then Add to Home Screen.
+- The home-screen game always opens the newest playtest, and once you’ve played it, it opens without a signal too.
+- Left open while a new playtest goes up, the game tells you, and Reload brings it in. It never reloads by itself in the middle of a match.
+- On an iPhone or iPad, the home-screen game keeps its own saves, apart from the browser’s. Use cloud saves to take a career across.
+- The game has an icon now, in the browser tab too.
+
 ## v0.6.12: What’s in the game, brought up to date
 
 _21 Nov 2026, 12:08 pm UK · build 045c9c7_
